@@ -100,7 +100,7 @@ export default function TechStack() {
                     </div>
                     
                     {/* The tools itself */}
-                    <div className="bg-white/90 max-h-80 grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-8 px-2 lg:px-8 py-2 lg:py-8 h-95 content-start overflow-y-auto custom-scrollbar [scrollbar-color:rgba(255,255,255,0.3)_transparent]">
+                    <div className="bg-white max-h-80 grid grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-8 px-2 lg:px-8 py-2 lg:py-8 h-95 content-start overflow-y-auto custom-scrollbar [scrollbar-color:rgba(255,255,255,0.3)_transparent]">
                         {filteredItems.map((item) => (
                             <div key={item.name}
                             className="group relative flex items-center p-2 lg:p-4 gap-2 lg:gap-3.5 rounded-xl border border-white/10 bg-black/20 transition-all duration-300 hover:border-white/30 hover:bg-white/6 hover:-translate-y-0.5"
