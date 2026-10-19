@@ -7,7 +7,7 @@ export default function Header() {
     const [darkMode, setDarkMode] = useState(false);
 
     return (
-        <header className="hidden lg:block fixed top-4 right-4 z-50 w-[calc(100%-2rem)] max-w-2xl">
+        <header className="hidden lg:block fixed top-4 right-50 z-50 w-[calc(100%-2rem)] max-w-2xl">
             <nav className="flex items-center justify-between px-4 py-2.5 rounded-full bg-neutral-900/80 backdrop-blur-md border border-white/10 shadow-lg font-mono text-sm">
                 
                 <div className="flex items-center gap-2">

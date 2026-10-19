@@ -29,12 +29,13 @@ export default function App() {
     }, []);
 
     return (
-        <main className="relative min-h-screen overflow-hidden bg-black text-white">
-            <div className="pointer-events-none fixed top-0 left-0 z-30 h-64 w-64 rounded-full bg-white/10 blur-3xl transition-transform duration-75 ease-out"
+        <body className="bg-black">
+        <main className="relative mx-auto max-w-[80%] min-h-screen overflow-hidden bg-black text-white">
+            <div className="pointer-events-none fixed top-0 left-0 z-100 h-64 w-64 rounded-full bg-white/10 blur-3xl transition-transform duration-75 ease-out"
             style={{ transform: `translate3d(${mousePosition.x - 128}px, ${mousePosition.y - 128}px, 0)`}}
             />
             
-            <div className="fixed z-50 flex h-screen flex-col items-center bg-white/5 p-4 lg:p-8">
+            <div className="fixed z-50 flex h-screen flex-col items-center bg-black/50 p-4 lg:p-8">
                 <Sidebar />
             </div>
 
@@ -79,6 +80,7 @@ export default function App() {
                 
             </div>
         </main>
+        </body>
    );
 }
 
