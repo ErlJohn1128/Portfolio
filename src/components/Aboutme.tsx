@@ -19,7 +19,7 @@ export default function AboutMe() {
 
                     <div className="flex flex-col justify-center items-center">
                         <p className="font-mono text-xs lg:text-lg text-justify leading-relaxed text-white/70">
-                            I'm Earl John T. Bozar, a Computer Science student focused on
+                            I'm Earl John T. Bozar, a CS student focused on
                             becoming a software developer. I enjoy building
                             things, solving problems, and understanding how
                             software works under the hood.
